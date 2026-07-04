@@ -1,2 +1,140 @@
-# ATM-management-system
-A Java-based ATM Management System using OOP concepts, featuring account creation, login, deposits, withdrawals, fund transfers, balance inquiry, and mini statements with transaction tracking.
+#  ATM Management System (Java)
+
+A console-based **ATM Management System** developed in **Java** using **Object-Oriented Programming (OOP)** principles. This project simulates basic banking operations through a user-friendly command-line interface.
+
+---
+
+## Project Overview
+
+The ATM Management System allows users to perform common banking operations such as:
+
+- Create a new account
+- Secure login using Account Number and PIN
+- Check account balance
+- Deposit money
+- Withdraw money
+- Transfer funds between accounts
+- Change account PIN
+- View mini statement (transaction history)
+
+This project was developed for learning and demonstrating Java programming, OOP concepts, and basic banking system logic.
+
+---
+
+## Features
+
+-  Secure Login Authentication
+-  Create New Account
+-  Balance Inquiry
+-  Deposit Money
+-  Withdraw Money
+-  Fund Transfer
+-  Change PIN
+-  Mini Statement
+-  Transaction History
+-  Console-Based User Interface
+
+---
+
+## Technologies Used
+
+- Java
+- Object-Oriented Programming (OOP)
+- ArrayList
+- Java Collections Framework
+- Java Scanner
+- LocalDateTime API
+
+---
+
+## Project Structure
+
+```
+ATM-Management-System/
+│
+├── Main.java
+├── ATM.java
+├── Bank.java
+├── Account.java
+├── Transaction.java
+└── README.md
+```
+
+---
+
+## How to Run
+
+### 1. Compile the project
+
+```bash
+javac *.java
+```
+
+### 2. Run the application
+
+```bash
+java Main
+```
+
+---
+
+## 📸 Sample Menu
+
+```
+=========================
+       ATM MACHINE
+=========================
+
+1. Login
+2. Create Account
+3. Exit
+```
+
+After Login
+
+```
+1. Balance Inquiry
+2. Deposit
+3. Withdraw
+4. Transfer
+5. Mini Statement
+6. Change PIN
+7. Logout
+```
+
+---
+
+## Learning Objectives
+
+This project demonstrates:
+
+- Classes & Objects
+- Encapsulation
+- Constructors
+- Methods
+- ArrayList
+- Object Interaction
+- User Input Handling
+- Banking System Logic
+
+---
+
+## Future Improvements
+
+- File Handling (Save & Load Accounts)
+- Database Integration (MySQL)
+- Java Swing GUI
+- Admin Panel
+- Account Lock After Multiple Failed Login Attempts
+- Password Encryption
+
+---
+
+##  Author
+
+**Sadeesha**
+
+GitHub: https://github.com/sadee-codes
+
+---
+ If you found this project helpful, consider giving it a star!
